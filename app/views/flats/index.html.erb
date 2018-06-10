@@ -1,0 +1,9 @@
+<h1> Coucou c'est l'index </h1>
+
+<% @flats.each do |flat| %>
+<ul>
+<li><%= flat.title %></li>
+<li><%= flat.description %></li>
+<li><%= flat.price  %></li>
+<% end %>
+</ul>
